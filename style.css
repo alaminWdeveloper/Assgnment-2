@@ -209,3 +209,21 @@ footer {
   margin: 5px;
   font-size: 24px;
 }
+
+@media only screen and (max-width: 688px) {
+  .big-header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .brand-logo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .collection-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact-us {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .socail-icon {
+    grid-template-columns: repeat(5, 30px);
+  }
+}
